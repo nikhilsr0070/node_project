@@ -19,8 +19,8 @@ module.exports = {
                 data: result
             });
         });
-    },
-
+    }
+/*
     putinfo: function (req, res) {
         let id = req.params.id;
         request.put(url.concat(id), (error, response, data) => {
