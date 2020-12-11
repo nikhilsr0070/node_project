@@ -11,6 +11,10 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Welcome, This is Nikhil Srivastava');
 });
+// App
+app.get('/', (req, res) => {
+  res.sendFile(__dirname+ '/index.html');
+});
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
