@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
   res.send('Welcome, This is Nikhil Srivastava');
 });
 // App
-app.get('/', (req, res) => {
-  res.sendFile(__dirname+ '/index.html');
+app.get('/',(req, res) => {
+  res.sendFile(__dirname + '/index.html')
 });
 
 app.listen(PORT, HOST);
